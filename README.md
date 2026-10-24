@@ -1,9 +1,11 @@
 <div align="center">
 
-  <!-- Red-Themed Header Banner with Tightened Subtitle Spacing -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,3,3,10,15&height=120&section=header&text=CLUCKTRACK&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%" />
 
-  <h3 align="center" style="margin: -15px 0 10px 0; color: #f87171; font-weight: 600; font-size: 18px;">
+  <div style="background: linear-gradient(135deg, #991b1b, #dc2626, #b91c1c); padding: 25px 15px; border-radius: 12px; color: #ffffff; margin-bottom: 12px; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);">
+    <h1 style="margin: 0; font-size: 42px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase;">CLUCKTRACK</h1>
+  </div>
+
+  <h3 align="center" style="margin: 0 0 8px 0; color: #f87171; font-weight: 600; font-size: 18px;">
     Web-based Real-time Inventory & Production Analytics System
   </h3>
 
@@ -19,7 +21,6 @@
   </p>
 
 </div>
-
 <br>
 
   <h2>📌 About CluckTrack</h2>
