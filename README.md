@@ -1,15 +1,17 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,40&height=180&section=header&text=CluckTrack&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Web-based%20Real-time%20Inventory%20&%20Production%20Analytics%20System&descSize=16&descAlignY=60" width="100%" />
+  <!-- Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,40&height=185&section=header&text=CluckTrack&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Agricultural%20ERP%20&%20Real-time%20Production%20Analytics%20System&descSize=15&descAlignY=62" width="100%" />
 
   <p align="center">
-    <i>Transitioning local poultry farming operations from manual records into a centralized, data-driven digital pipeline.</i>
+    <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
   </p>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-In%20Active%20Development-orange?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
     <img src="https://img.shields.io/badge/Capstone-Academic-blue?style=for-the-badge&logo=graduation-dot-com&logoColor=white" alt="Capstone" />
     <img src="https://img.shields.io/badge/ERP-Agricultural-success?style=for-the-badge&logo=databricks&logoColor=white" alt="ERP" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License" />
   </p>
 
 </div>
@@ -18,7 +20,7 @@
 
 ## 📌 About CluckTrack
 
-**CluckTrack** is an enterprise-grade Agricultural ERP web application engineered to modernize poultry farm management. Developed as an academic capstone project, it eliminates error-prone paper ledgers and fragmented Google Sheets, replacing them with a unified real-time dashboard that tracks dynamic inventory, monitors daily production yields, and processes predictive analytics for optimized farm profitability.
+**CluckTrack** is an enterprise-grade Agricultural ERP web application engineered to modernize poultry farm management. Developed as an academic capstone project, it eliminates error-prone paper ledgers and disconnected Google Sheets, replacing them with a unified real-time dashboard that tracks dynamic inventory, monitors daily production yields, and processes predictive analytics for optimized farm profitability.
 
 ---
 
@@ -27,8 +29,8 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📦 Dynamic CRUD Inventory</h3>
-      <p>Real-time tracking of feed stock, livestock batches, mortality rates, and operational supplies with automated low-stock threshold notifications.</p>
+      <h3>📦 Dynamic CRUD Inventory Module</h3>
+      <p>Real-time tracking of feed stock, livestock batches, mortality rates, and operational supplies equipped with automated low-stock threshold alerts.</p>
     </td>
     <td width="50%" valign="top">
       <h3>📈 Production & KPI Analytics</h3>
@@ -38,11 +40,11 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🔮 Strategic Forecasting Engine</h3>
-      <p>Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in resource planning.</p>
+      <p>Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in forward resource planning.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔒 RBAC & Audit Trails</h3>
-      <p>Secure Role-Based Access Control separating permissions for administrators and staff, backed by a comprehensive system activity audit log.</p>
+      <h3>🔒 RBAC & Comprehensive Audit Trails</h3>
+      <p>Secure Role-Based Access Control separating permissions for administrators and staff, backed by a detailed system activity logging framework.</p>
     </td>
   </tr>
 </table>
@@ -78,15 +80,30 @@
 ## 📂 Project Architecture
 
 <details>
-<summary><b>Click to expand file structure</b></summary>
+<summary><b>📂 Click to expand complete directory tree structure</b></summary>
 
 ```text
 clucktrack/
-├── assets/             # Images, custom CSS stylesheets, and client-side scripts
-├── config/             # Database connection setups and environment configurations
-├── includes/           # Reusable modular components (Navbar, Sidebar, Footer, RBAC validation)
-├── modules/            # Core feature modules (Inventory management, Production logs, Analytics, Audit Trail)
-├── python_engine/      # Python scripts handling predictive forecasting algorithms & data processing
-├── database/           # SQL schema definitions, seed data, and migration files
+├── assets/
+│   ├── css/            # Custom Tailwind and layout stylesheets
+│   ├── js/             # Frontend interaction scripts and Chart.js wrappers
+│   └── img/            # System avatars, logos, and UI illustration graphics
+├── config/
+│   └── db.php          # Database connection handler and environment mapping
+├── includes/
+│   ├── navbar.php      # Navigation header component with user profile dropdown
+│   ├── sidebar.php     # Dynamic sidebar navigation controlled by RBAC roles
+│   ├── footer.php      # Global footer component
+│   └── auth_check.php  # Role-based access control validation middleware
+├── modules/
+│   ├── inventory/      # Stock management CRUD interfaces & low-stock alerts
+│   ├── production/     # Daily egg/meat yield logging and mortality tracking
+│   ├── analytics/      # Chart.js visualization dashboards and KPI summaries
+│   └── audit/          # System activity audit logs for administrative monitoring
+├── python_engine/
+│   ├── forecaster.py   # Python prediction models for cycle profitability forecasting
+│   └── requirements.txt# Python pipeline dependencies (pandas, numpy, etc.)
+├── database/
+│   └── schema.sql      # Database initialization schema, tables, and seed roles
 ├── index.php           # Application entry point & login authentication redirect
 └── dashboard.php       # Main administrative analytics control center
