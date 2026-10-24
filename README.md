@@ -1,7 +1,7 @@
 <div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
   <div align="center" style="background: linear-gradient(135deg, #991b1b, #dc2626); padding: 20px; border-radius: 12px; color: #ffffff; margin-bottom: 25px;">
     <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px;">CLUCKTRACK SYSTEM DOCUMENTATION</h1>
-    <p style="margin: 8px 0 0 0; font-size: 20px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
+    <p style="margin: 8px 0 0 0; font-size: 24px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
   </div>
   
   <p align="center">
