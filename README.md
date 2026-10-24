@@ -1,5 +1,36 @@
-<div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
-  <div align="center" style="background: linear-gradient(135deg, #991b1b, #dc2626); padding: 20px; border-radius: 12px; color: #ffffff; margin-bottom: 25px;">
+<div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1); animation: fadeInUp 0.8s ease-out forwards;">
+  
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes pulseGlow {
+      0% { box-shadow: 0 0 0 0 rgba(153, 27, 27, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(153, 27, 27, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(153, 27, 27, 0); }
+    }
+    .animated-banner {
+      background: linear-gradient(135deg, #991b1b, #dc2626);
+      padding: 20px;
+      border-radius: 12px;
+      color: #ffffff;
+      margin-bottom: 25px;
+      animation: pulseGlow 3s infinite;
+      transition: transform 0.3s ease;
+    }
+    .animated-banner:hover {
+      transform: scale(1.01);
+    }
+  </style>
+
+  <div align="center" class="animated-banner">
     <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px;">CLUCKTRACK</h1>
     <p style="margin: 8px 0 0 0; font-size: 24px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
   </div>
@@ -7,6 +38,8 @@
   <p align="center">
     <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
   </p>
+
+</div>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-In%20Active%20Development-red?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
