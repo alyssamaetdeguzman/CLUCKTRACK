@@ -101,4 +101,60 @@
     </ul>
 
     <h4>Step 1: Clone the Repository</h4>
-    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>git clone
+    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>git clone https://github.com/alyssamaetdeguzman/clucktrack.git</code></pre>
+
+    <h4>Step 2: Move to Local Server Root Directory</h4>
+    <p>Move the cloned folder into your local server web root directory (e.g., <code>C:\xampp\htdocs\clucktrack</code> for XAMPP).</p>
+
+    <h4>Step 3: Initialize and Configure the Database</h4>
+    <ol>
+      <li>Start <b>Apache</b> and <b>MySQL</b> modules from your XAMPP Control Panel.</li>
+      <li>Open your browser and navigate to phpMyAdmin: <code>http://localhost/phpmyadmin</code></li>
+      <li>Create a new database named <b><code>clucktrack_db</code></b>.</li>
+      <li>Select the database, click the <b>Import</b> tab, upload <code>database/schema.sql</code>, and click <b>Go</b>.</li>
+    </ol>
+
+    <h4>Step 4: Configure Database Connection</h4>
+    <p>Open <code>config/db.php</code> and verify your database settings:</p>
+    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>&lt;?php
+$host = 'localhost';
+$db   = 'clucktrack_db';
+$user = 'root';
+$pass = ''; // Default XAMPP password is blank
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+    ]);
+} catch (\PDOException $e) {
+    throw new \PDOException($e->getMessage(), (int)$e->getCode());
+}
+?&gt;</code></pre>
+
+    <h4>Step 5: Install Python Dependencies</h4>
+    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>cd path/to/clucktrack/python_engine
+pip install -r requirements.txt</code></pre>
+
+    <h4>Step 6: Launch the Application</h4>
+    <p>Open your browser and navigate to: <b><code>http://localhost/clucktrack/index.php</code></b></p>
+  </div>
+
+  <h3 style="margin-top: 30px;">👥 Author & Contact Information</h3>
+  <div align="center">
+    <b style="font-size: 16px; color: #991b1b;">Alyssa Mae T. De Guzman</b><br>
+    <i>Lead Full-Stack Developer & Team Leader</i><br>
+    Polytechnic University of the Philippines<br><br>
+
+    <a href="https://linkedin.com/in/alyssa-mae-de-guzman">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/alyssamaetdeguzman">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="mailto:alyssamaetdeguzman@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </div>
+
+</div>
