@@ -1,10 +1,11 @@
 <div align="center">
 
-  <div style="background: linear-gradient(135deg, #991b1b, #dc2626, #b91c1c); padding: 25px 15px; border-radius: 12px; color: #ffffff; margin-bottom: 12px; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);">
-    <h1 style="margin: 0; font-size: 42px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase;">CLUCKTRACK</h1>
+  <!-- Compact Gradient Banner -->
+  <div style="background: linear-gradient(135deg, #991b1b, #dc2626, #b91c1c); padding: 22px 15px; border-radius: 12px; color: #ffffff; margin-bottom: 10px; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);">
+    <h1 style="margin: 0; font-size: 40px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase;">CLUCKTRACK</h1>
   </div>
 
-  <h3 align="center" style="margin: 0 0 8px 0; color: #f87171; font-weight: 600; font-size: 18px;">
+  <h3 align="center" style="margin: 0 0 6px 0; color: #f87171; font-weight: 600; font-size: 17px;">
     Web-based Real-time Inventory & Production Analytics System
   </h3>
 
