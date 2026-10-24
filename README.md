@@ -1,4 +1,3 @@
-
   <div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
 
   <div align="center" style="background: linear-gradient(135deg, #991b1b, #dc2626); padding: 20px; border-radius: 12px; color: #ffffff; margin-bottom: 25px;">
@@ -151,21 +150,12 @@ pip install -r requirements.txt</code></pre>
   <br>
   <hr style="border: 0; height: 1px; background: #e5e7eb; margin: 30px 0;">
 
-  <h2 align="center">👥 Author & Contact Information</h2>
+  <h2 align="center">👥 Author & Role</h2>
   <div align="center" style="background: #fdf2f2; padding: 20px; border-radius: 10px; border: 1px solid #fca5a5;">
     <b style="font-size: 18px; color: #991b1b;">Alyssa Mae T. De Guzman</b><br>
     <i style="color: #4b5563;">Lead Full-Stack Developer & Team Leader</i><br>
-    <span style="color: #6b7280; font-size: 14px;">Polytechnic University of the Philippines</span><br><br>
-
-    <a href="https://linkedin.com/in/alyssa-mae-de-guzman" style="text-decoration: none; margin: 0 5px;">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/alyssamaetdeguzman" style="text-decoration: none; margin: 0 5px;">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="mailto:alyssamaetdeguzman@gmail.com" style="text-decoration: none; margin: 0 5px;">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
+    
+    
   </div>
 
 </div>
