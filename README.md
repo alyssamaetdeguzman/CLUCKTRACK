@@ -3,7 +3,7 @@
     <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px;">CLUCKTRACK SYSTEM DOCUMENTATION</h1>
     <p style="margin: 8px 0 0 0; font-size: 15px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
   </div>
-  <div>
+  
   <p align="center">
     <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
   </p>
@@ -14,7 +14,6 @@
     <img src="https://img.shields.io/badge/ERP-Agricultural-crimson?style=for-the-badge&logo=databricks&logoColor=white" alt="ERP" />
     <img src="https://img.shields.io/badge/License-MIT-firebrick?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License" />
   </p>
-  </div>
 
 </div>
 
