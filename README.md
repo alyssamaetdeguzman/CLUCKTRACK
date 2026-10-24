@@ -151,7 +151,7 @@ pip install -r requirements.txt</code></pre>
   <br>
   <hr style="border: 0; height: 1px; background: #e5e7eb; margin: 30px 0;">
 
-  <h2 align="center">👥 Author of the System</h2>
+  <h2 align="center">Author of the System</h2>
   <div align="center" style="background: #fdf2f2; padding: 20px; border-radius: 10px; border: 1px solid #fca5a5;">
     <b style="font-size: 18px; color: #991b1b;">Alyssa Mae T. De Guzman</b><br>
     <i style="color: #4b5563;">Lead Full-Stack Developer & Team Leader</i><br>
