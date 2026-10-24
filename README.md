@@ -1,4 +1,10 @@
 <div align="center">
+  <div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
+
+  <div align="center" style="background: linear-gradient(135deg, #991b1b, #dc2626); padding: 20px; border-radius: 12px; color: #ffffff; margin-bottom: 25px;">
+    <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px;">CLUCKTRACK SYSTEM DOCUMENTATION</h1>
+    <p style="margin: 8px 0 0 0; font-size: 15px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
+  </div>
   <p align="center">
     <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
   </p>
@@ -13,13 +19,6 @@
 </div>
 
 <br>
-
-<div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
-
-  <div align="center" style="background: linear-gradient(135deg, #991b1b, #dc2626); padding: 20px; border-radius: 12px; color: #ffffff; margin-bottom: 25px;">
-    <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px;">CLUCKTRACK SYSTEM DOCUMENTATION</h1>
-    <p style="margin: 8px 0 0 0; font-size: 15px; opacity: 0.9;">Web-based Real-time Inventory & Production Analytics System</p>
-  </div>
 
   <h2>📌 About CluckTrack</h2>
   <p style="line-height: 1.6;"><strong>CluckTrack</strong> is an enterprise-grade Agricultural ERP web application engineered to modernize poultry farm management. Developed as an academic capstone project, it eliminates error-prone paper ledgers and disconnected Google Sheets, replacing them with a unified real-time dashboard that tracks dynamic inventory, monitors daily production yields, and processes predictive analytics for optimized farm profitability.</p>
