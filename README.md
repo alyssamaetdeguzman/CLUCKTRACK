@@ -1,11 +1,9 @@
 <div align="center">
 
-  <!-- Compact Gradient Banner -->
-  <div style="background: linear-gradient(135deg, #991b1b, #dc2626, #b91c1c); padding: 22px 15px; border-radius: 12px; color: #ffffff; margin-bottom: 10px; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);">
-    <h1 style="margin: 0; font-size: 40px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase;">CLUCKTRACK</h1>
-  </div>
+  <!-- Animated Glowing Banner with Tight Spacing -->
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=38&duration=3000&pause=1000&color=FF4D4D&center=true&vCenter=true&width=750&height=75&lines=CLUCKTRACK" alt="Typing SVG" />
 
-  <h3 align="center" style="margin: 0 0 6px 0; color: #f87171; font-weight: 600; font-size: 17px;">
+  <h3 align="center" style="margin: -5px 0 8px 0; color: #f87171; font-weight: 600; font-size: 18px;">
     Web-based Real-time Inventory & Production Analytics System
   </h3>
 
