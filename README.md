@@ -1,14 +1,15 @@
-<div style="border: 2px solid #dc2626; border-radius: 16px; padding: 30px; background-color: #ffffff; color: #1f2937; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1);">
+<div align="center">
 
-  <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,3,3,10,15&height=130&section=header&text=CLUCKTRACK&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%"/>
-  <h3 align="center" style="margin: 15px 0 5px 0; color: #991b1b; font-size: 20px;">Web-based Real-time Inventory & Production Analytics System</h3>
-   </div>
-  <p align="center" style="margin-top: 10px;">
+  <!-- Red-Themed Header Banner with Tightened Subtitle Spacing -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,3,3,10,15&height=120&section=header&text=CLUCKTRACK&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=50" width="100%" />
+
+  <h3 align="center" style="margin: -15px 0 10px 0; color: #f87171; font-weight: 600; font-size: 18px;">
+    Web-based Real-time Inventory & Production Analytics System
+  </h3>
+
+  <p align="center" style="margin: 0 0 15px 0;">
     <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
   </p>
-
-</div>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-In%20Active%20Development-red?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
