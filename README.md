@@ -1,7 +1,8 @@
 <div align="center">
+<div align="center">
 
   <!-- Red-Themed Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,3,3,10,15&height=185&section=header&text=CluckTrack&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Agricultural%20ERP%20&%20Real-time%20Production%20Analytics%20System&descSize=15&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,3,3,10,15&height=185&section=header&text=CluckTrack&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Web-based%20Real-time%20Inventory%20&%20Production%20Analytics%20System&descSize=15&descAlignY=62" width="100%" />
 
   <p align="center">
     <i>Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.</i>
@@ -61,8 +62,13 @@
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
     <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
     <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white" />
+    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   </div>
 
   <h3 style="margin-top: 25px;">📂 Project Architecture</h3>
@@ -93,20 +99,21 @@
 
   <h3 style="margin-top: 25px;">⚙️ Automated Installation & Setup Guide</h3>
   <div style="background: #ffffff; padding: 15px; border-radius: 8px; border: 1px solid #fca5a5; text-align: left;">
-    <h4>📋 Prerequisites</h4>
+    <h4 style="color: #991b1b; margin-top: 0;">📋 Prerequisites</h4>
     <ul>
       <li><b>XAMPP</b> (or any local LAMP/WAMP server stack supporting <b>PHP 8.x</b> and <b>MySQL</b>)</li>
       <li><b>Python 3.x</b> (Required for running the predictive forecasting analytics engine)</li>
       <li><b>Git</b> (For version control and repository cloning)</li>
     </ul>
 
-    <h4>Step 1: Clone the Repository</h4>
-    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>git clone https://github.com/alyssamaetdeguzman/clucktrack.git</code></pre>
+    <h4 style="color: #991b1b;">Step 1: Clone the Repository</h4>
+    <p>Open your terminal and run the following command:</p>
+    <pre style="background: #f3f4f6; color: #1f2937; padding: 10px; border-radius: 4px; font-family: monospace;"><code>git clone https://github.com/alyssamaetdeguzman/clucktrack.git</code></pre>
 
-    <h4>Step 2: Move to Local Server Root Directory</h4>
+    <h4 style="color: #991b1b;">Step 2: Move to Local Server Root Directory</h4>
     <p>Move the cloned folder into your local server web root directory (e.g., <code>C:\xampp\htdocs\clucktrack</code> for XAMPP).</p>
 
-    <h4>Step 3: Initialize and Configure the Database</h4>
+    <h4 style="color: #991b1b;">Step 3: Initialize and Configure the Database</h4>
     <ol>
       <li>Start <b>Apache</b> and <b>MySQL</b> modules from your XAMPP Control Panel.</li>
       <li>Open your browser and navigate to phpMyAdmin: <code>http://localhost/phpmyadmin</code></li>
@@ -114,9 +121,9 @@
       <li>Select the database, click the <b>Import</b> tab, upload <code>database/schema.sql</code>, and click <b>Go</b>.</li>
     </ol>
 
-    <h4>Step 4: Configure Database Connection</h4>
-    <p>Open <code>config/db.php</code> and verify your database settings:</p>
-    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>&lt;?php
+    <h4 style="color: #991b1b;">Step 4: Configure Database Connection</h4>
+    <p>Open <code>config/db.php</code> in your code editor and verify your database settings:</p>
+    <pre style="background: #f3f4f6; color: #1f2937; padding: 10px; border-radius: 4px; font-family: monospace;"><code>&lt;?php
 $host = 'localhost';
 $db   = 'clucktrack_db';
 $user = 'root';
@@ -132,11 +139,12 @@ try {
 }
 ?&gt;</code></pre>
 
-    <h4>Step 5: Install Python Dependencies</h4>
-    <pre style="background: #f3f4f6; padding: 8px; border-radius: 4px;"><code>cd path/to/clucktrack/python_engine
+    <h4 style="color: #991b1b;">Step 5: Install Python Dependencies</h4>
+    <p>Navigate to the python engine folder in your terminal and install the required packages:</p>
+    <pre style="background: #f3f4f6; color: #1f2937; padding: 10px; border-radius: 4px; font-family: monospace;"><code>cd path/to/clucktrack/python_engine
 pip install -r requirements.txt</code></pre>
 
-    <h4>Step 6: Launch the Application</h4>
+    <h4 style="color: #991b1b;">Step 6: Launch the Application</h4>
     <p>Open your browser and navigate to: <b><code>http://localhost/clucktrack/index.php</code></b></p>
   </div>
 
