@@ -1,201 +1,92 @@
-<!-- Top Navigation Bar -->
-<header class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between shrink-0">
-    <div class="flex items-center space-x-3">
-        <div class="bg-amber-500 text-slate-900 p-2 rounded-lg font-bold flex items-center justify-center shadow-lg shadow-amber-500/20">
-            <i class="fa-solid fa-feather text-xl"></i>
-        </div>
-        <div>
-            <h1 class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
-                CluckTrack <span class="text-xs px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 font-medium">README.md Studio</span>
-            </h1>
-            <p class="text-xs text-slate-400">Interactive GitHub Documentation Editor & Previewer</p>
-        </div>
-    </div>
-    
-    <div class="flex items-center space-x-3">
-        <button id="tab-write" onclick="switchTab('write')" class="px-4 py-2 text-sm font-medium rounded-lg bg-slate-700 text-white transition flex items-center gap-2">
-            <i class="fa-solid fa-code"></i> Edit Code
-        </button>
-        <button id="tab-preview" onclick="switchTab('preview')" class="px-4 py-2 text-sm font-medium rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2">
-            <i class="fa-solid fa-eye"></i> Live Preview
-        </button>
-        <div class="h-5 w-px bg-slate-700 mx-1"></div>
-        <button onclick="copyReadme()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-2 shadow-lg shadow-emerald-600/20">
-            <i class="fa-solid fa-copy"></i> Copy Markdown
-        </button>
-    </div>
-</header>
+<div align="center">
 
-<!-- Main Workspace Container -->
-<main class="flex-1 overflow-hidden flex flex-col md:flex-row relative">
-    
-    <!-- Editor View -->
-    <div id="editor-container" class="flex-1 flex flex-col h-full p-4 md:p-6 bg-slate-900 overflow-hidden">
-        <div class="flex items-center justify-between mb-3 shrink-0">
-            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-                <i class="fa-brands fa-markdown text-amber-400"></i> README.md Source Code
-            </span>
-            <span id="char-count" class="text-xs text-slate-500">0 characters</span>
-        </div>
-        <div class="flex-1 rounded-xl border border-slate-700 bg-slate-950 overflow-hidden shadow-inner flex flex-col">
-            <textarea id="markdown-input" oninput="updatePreview()" class="w-full h-full p-5 bg-transparent text-slate-200 font-mono text-sm resize-none focus:outline-none leading-relaxed selection:bg-amber-500/30"></textarea>
-        </div>
-    </div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,40&height=180&section=header&text=CluckTrack&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Web-based%20Real-time%20Inventory%20&%20Production%20Analytics%20System&descSize=16&descAlignY=60" width="100%" />
 
-    <!-- Preview View -->
-    <div id="preview-container" class="hidden flex-1 flex flex-col h-full p-4 md:p-6 bg-slate-900 overflow-hidden">
-        <div class="flex items-center justify-between mb-3 shrink-0">
-            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-                <i class="fa-solid fa-globe text-emerald-400"></i> GitHub Rendered Preview
-            </span>
-            <span class="text-xs text-slate-500">Theme: GitHub Dark</span>
-        </div>
-        <div class="flex-1 rounded-xl border border-slate-700 bg-[#0d1117] text-[#c9d1d9] p-6 overflow-y-auto shadow-inner prose prose-invert max-w-none">
-            <div id="markdown-preview"></div>
-        </div>
-    </div>
+  <p align="center">
+    <i>Transitioning local poultry farming operations from manual records into a centralized, data-driven digital pipeline.</i>
+  </p>
 
-</main>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-In%20Active%20Development-orange?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
+    <img src="https://img.shields.io/badge/Capstone-Academic-blue?style=for-the-badge&logo=graduation-dot-com&logoColor=white" alt="Capstone" />
+    <img src="https://img.shields.io/badge/ERP-Agricultural-success?style=for-the-badge&logo=databricks&logoColor=white" alt="ERP" />
+  </p>
 
-<!-- Notification Toast -->
-<div id="toast" class="fixed bottom-6 right-6 bg-emerald-600 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-3 transform translate-y-20 opacity-0 transition-all duration-300 z-50">
-    <i class="fa-solid fa-circle-check text-lg"></i>
-    <span class="text-sm font-medium">README markdown copied to clipboard successfully!</span>
 </div>
 
-<!-- Application Script Logic -->
-<script>
-    const initialReadme = `# CluckTrack 🐔📊
+---
 
+## 📌 About CluckTrack
 
-Web-based Real-time Inventory & Production Analytics System (Agricultural ERP)
+**CluckTrack** is an enterprise-grade Agricultural ERP web application engineered to modernize poultry farm management. Developed as an academic capstone project, it eliminates error-prone paper ledgers and fragmented Google Sheets, replacing them with a unified real-time dashboard that tracks dynamic inventory, monitors daily production yields, and processes predictive analytics for optimized farm profitability.
 
-Transitioning local poultry farming operations from manual records and fragmented spreadsheets into a centralized, data-driven digital pipeline.
+---
 
-🌟 Overview
+## 🚀 Key Features
 
-CluckTrack is a comprehensive, web-based Agricultural ERP designed to streamline poultry farm management. Built as an academic capstone project, it replaces error-prone paper ledgers and disconnected spreadsheets with a real-time dashboard. The system tracks dynamic inventory, monitors daily production metrics, and leverages predictive analytics to generate actionable profitability reports for farm operators.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 Dynamic CRUD Inventory</h3>
+      <p>Real-time tracking of feed stock, livestock batches, mortality rates, and operational supplies with automated low-stock threshold notifications.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 Production & KPI Analytics</h3>
+      <p>Interactive data visualizations powered by <b>Chart.js</b> tracking key agricultural metrics like Feed Conversion Ratios (FCR) and egg/meat production yields.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔮 Strategic Forecasting Engine</h3>
+      <p>Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in resource planning.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔒 RBAC & Audit Trails</h3>
+      <p>Secure Role-Based Access Control separating permissions for administrators and staff, backed by a comprehensive system activity audit log.</p>
+    </td>
+  </tr>
+</table>
 
-🚀 Key Features
+---
 
-📦 Dynamic CRUD Inventory Module: Real-time tracking of feed, livestock, mortality rates, and supplies with automated low-stock notifications.
+## 🛠️ Technology Stack
 
-📈 Production & Profitability Analytics: Interactive charts powered by Chart.js to visualize Key Performance Indicators (KPIs) like feed conversion ratios (FCR) and egg/meat yields.
+<div align="center">
 
-🔮 Strategic Forecasting Engine: Predictive data processing to assist managers in planning stock replenishment and assessing cycle profitability.
+### Backend & Analytics
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
 
-🔒 Role-Based Access Control (RBAC): Secure permission layers for farm administrators, supervisors, and standard staff.
+### Frontend & UI
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
-📝 Comprehensive Audit Trail: System activity logs ensuring complete transparency, accountability, and data governance across operations.
+### Tools & Deployment
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 
-🛠️ Tech Stack
+</div>
 
-Backend & Logic: PHP, Python (Analytics & Forecasting Engine)
+---
 
-Frontend: HTML5, Tailwind CSS, JavaScript, Chart.js
+## 📂 Project Architecture
 
-Database: MySQL
-
-Server Environment / Tools: Apache, Linux/XAMPP, Git & GitHub, Railway (Deployment)
-
-📂 Project Structure
+<details>
+<summary><b>Click to expand file structure</b></summary>
 
 ```text
 clucktrack/
-├── assets/             # Images, custom CSS, and client-side scripts
-├── config/             # Database connection and environment configurations
-├── includes/           # Reusable components (Navbar, Sidebar, Footer, RBAC checks)
-├── modules/            # Core feature modules (Inventory, Production, Analytics, Audit Logs)
-├── python_engine/      # Python scripts for predictive forecasting and data processing
-├── database/           # SQL schema definitions and migration scripts
-├── index.php           # Application entry point / Login redirect
-└── dashboard.php       # Main analytics control center
-```
-
-⚙️ Getting Started
-
-Prerequisites
-
-XAMPP (or a local LAMP/WAMP server stack with PHP 8.x and MySQL)
-
-Python 3.x (for analytics and forecasting modules)
-
-Composer (optional, for dependency management)
-
-Installation & Setup
-
-Clone the repository:
-```bash
-git clone https://github.com/alyssamaetdeguzman/clucktrack.git
-```
-
-Move to your local server directory:
-
-Place the cloned folder into your `htdocs` directory (if using XAMPP).
-
-Configure the Database:
-
-Open phpMyAdmin and create a new database named `clucktrack_db`.
-
-Import the schema file located in `database/schema.sql`.
-
-Update Database Credentials:
-
-Open `config/db.php` and update your database host, username, and password if necessary:
-```php
-$host = 'localhost';$db   = 'clucktrack_db';
-$user = 'root';$pass = '';
-```
-
-Run the Application:
-
-Start Apache and MySQL from your XAMPP control panel.
-
-Open your browser and navigate to: `http://localhost/clucktrack`
-
-👥 Author
-
-Alyssa Mae T. De Guzman – Lead Full-Stack Developer & Team Leader
-
-Polytechnic University of the Philippines`;
-
-  // Initialize textarea value on load
-  const inputField = document.getElementById('markdown-input');
-  inputField.value = initialReadme;
-  updatePreview();
-
-  function switchTab(tab) {
-      const editorContainer = document.getElementById('editor-container');
-      const previewContainer = document.getElementById('preview-container');
-      const tabWrite = document.getElementById('tab-write');
-      const tabPreview = document.getElementById('tab-preview');
-
-      if (tab === 'write') {
-          editorContainer.classList.remove('hidden');
-          previewContainer.classList.add('hidden');
-          tabWrite.className = "px-4 py-2 text-sm font-medium rounded-lg bg-slate-700 text-white transition flex items-center gap-2";
-          tabPreview.className = "px-4 py-2 text-sm font-medium rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
-      } else {
-          editorContainer.classList.add('hidden');
-          previewContainer.classList.remove('hidden');
-          tabPreview.className = "px-4 py-2 text-sm font-medium rounded-lg bg-slate-700 text-white transition flex items-center gap-2";
-          tabWrite.className = "px-4 py-2 text-sm font-medium rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
-          updatePreview();
-      }
-  }
-
-  function updatePreview() {
-      const content = inputField.value;
-      document.getElementById('char-count').innerText = `${content.length} characters`;
-      document.getElementById('markdown-preview').innerHTML = marked.parse(content);
-  }
-
-  function copyReadme() {
-      navigator.clipboard.writeText(inputField.value).then(() => {
-          const toast = document.getElementById('toast');
-          toast.classList.remove('translate-y-20', 'opacity-0');
-          setTimeout(() => {
-              toast.classList.add('translate-y-20', 'opacity-0');
-          }, 3000);
-      });
-  }
+├── assets/             # Images, custom CSS stylesheets, and client-side scripts
+├── config/             # Database connection setups and environment configurations
+├── includes/           # Reusable modular components (Navbar, Sidebar, Footer, RBAC validation)
+├── modules/            # Core feature modules (Inventory management, Production logs, Analytics, Audit Trail)
+├── python_engine/      # Python scripts handling predictive forecasting algorithms & data processing
+├── database/           # SQL schema definitions, seed data, and migration files
+├── index.php           # Application entry point & login authentication redirect
+└── dashboard.php       # Main administrative analytics control center
