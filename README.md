@@ -1,6 +1,5 @@
 <div align="center">
 
-
   <div style="background: linear-gradient(135deg, #991b1b, #dc2626, #b91c1c); padding: 25px 15px; border-radius: 12px; color: #ffffff; margin-bottom: 12px; box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);">
     <h1 style="margin: 0; font-size: 42px; letter-spacing: 2px; font-weight: 800; text-transform: uppercase;">CLUCKTRACK</h1>
   </div>
