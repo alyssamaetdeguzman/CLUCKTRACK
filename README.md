@@ -41,7 +41,7 @@
     <tr>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
         <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">🔮 Strategic Forecasting</h3>
-        <p style="font-size: 14px; margin: 0; line-height: 1.5;">Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in forward resource planning.</p>
+        <p style="font-size: 14px; margin: 0; line-height: 1.5;">Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in resource planning.</p>
       </td>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
         <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">🔒 RBAC & Audit Trails</h3>
