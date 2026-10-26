@@ -13,7 +13,7 @@
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-In%20Active%20Development-red?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
-    <img src="https://img.shields.io/badge/Academic-Capstone%20Project-darkred?style=for-the-badge&logo=archive&logoColor=white" alt="Academic" />
+    <img src="https://img.shields.io/badge/Academic-Capstone%20Project-darkred?style=for-the-badge&logo=files&logoColor=white" alt="Academic" />
     <img src="https://img.shields.io/badge/ERP-Agricultural-crimson?style=for-the-badge&logo=databricks&logoColor=white" alt="ERP" />
     <img src="https://img.shields.io/badge/License-MIT-firebrick?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License" />
   </p>
