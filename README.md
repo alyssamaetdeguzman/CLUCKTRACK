@@ -30,21 +30,21 @@
   <table width="100%" style="border-collapse: separate; border-spacing: 12px;">
     <tr>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
-        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">📦 Dynamic CRUD Inventory</h3>
+        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;"> Dynamic CRUD Inventory</h3>
         <p style="font-size: 14px; margin: 0; line-height: 1.5;">Real-time tracking of feed stock, livestock batches, mortality rates, and operational supplies equipped with automated low-stock threshold alerts.</p>
       </td>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
-        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">📈 Production & KPI Analytics</h3>
+        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;"> Production & KPI Analytics</h3>
         <p style="font-size: 14px; margin: 0; line-height: 1.5;">Interactive data visualizations powered by <b>Chart.js</b> tracking key agricultural metrics like Feed Conversion Ratios (FCR) and egg/meat production yields.</p>
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
-        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">🔮 Strategic Forecasting</h3>
+        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;"> Strategic Forecasting</h3>
         <p style="font-size: 14px; margin: 0; line-height: 1.5;">Python-powered predictive analytics processing historical farm cycles to generate actionable profitability reports and assist in resource planning.</p>
       </td>
       <td width="50%" valign="top" style="padding: 16px; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 10px;">
-        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;">🔒 RBAC & Audit Trails</h3>
+        <h3 style="color: #991b1b; margin-top: 0; margin-bottom: 8px;"> RBAC & Audit Trails</h3>
         <p style="font-size: 14px; margin: 0; line-height: 1.5;">Secure Role-Based Access Control separating permissions for administrators and staff, backed by a detailed system activity logging framework.</p>
       </td>
     </tr>
